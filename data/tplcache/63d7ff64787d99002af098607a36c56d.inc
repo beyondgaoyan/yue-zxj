@@ -1,0 +1,1 @@
+<p><img src="{dede:global.cfg_templets_skin/}/images/tubiao.png" /> &nbsp;<a href="[field:filename/]">[field:title/]</a><span class="time">[field:pubdate function=MyDate('Y/m/d H:i:s',@me)/]</span></p>

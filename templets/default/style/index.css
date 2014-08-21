@@ -1,0 +1,75 @@
+/* CSS Document */
+/*这是页面整体的样式*/
+*{margin:0; padding:0; font-family:"微软雅黑";font-size:14px;}
+a{font-size:12px;text-decoration:none;color:#fff;}
+/*a:hover{color:#F00;text-decoration:underline;}*/
+.clear{ clear:both;}
+div{margin:0px;padding:0px;}
+img{border:0;margin:0;padding:0;}
+p{font-size:12px; text-decoration:none;  }
+ul li{list-style:none; margin:0px;padding:0px;}
+ol li{list-style:none; margin:0px;padding:0px;}
+table{ font-size:14px; font-family:"微软雅黑";}
+
+/*导航开始*/
+.nav{ background:url(../images/daohang.png) repeat-x; width:100%; height:193px;}
+.logo{ background:url(../images/logo.png) no-repeat center center; width:1024px; height:192px;}
+.nav_dao{ width:1024px; margin:0 auto;}
+.nav_left{ float:left;}
+.nav_right{ float:right;}
+.nav_left ul li{/*line-height: 330px;*/ padding-right: 30px; float:left;}
+.nav_left ul li a{color:#b08f4a; font-weight:bold; font-size:14px;  width:67px; padding-left:5px; display:table; padding-top:155px; }
+.nav_left ul li a:hover{ background:url(../images/zibei.png) no-repeat; width:67px; height:30px; overflow:hidden /*padding-left:5px;*/}
+.nav_right ul li{/*line-height: 330px;*/ padding-left: 30px; float:left;}
+.nav_right ul li a{color:#b08f4a; font-weight:bold; font-size:14px;  width:67px; padding-left:5px; display:table; padding-top:155px; }
+.nav_right ul li a:hover{ background:url(../images/zibei.png) no-repeat; width:67px; height:30px;  /*padding-left:5px;*/}
+.nav_kong{ padding-left:10px;}
+.banner{width:1024px; margin:0 auto;}
+/*中间开始*/
+.center{ width:1024px; margin:0 auto;  overflow:hidden; padding:10px;}
+.top{overflow:hidden;}
+.present{ width:309px; float:left;}
+.col{ color:#b08f4a; font-size:16px; font-weight:bold; padding-left:10px; padding-right:10px;}
+.huisuo{ padding-left:10px; border-bottom:2px solid #a08b5d; padding-top:10px;}
+.detail{ padding-top:10px;}
+.detail p{ line-height:24px; font-size:14px;}
+.full{ color:#b08f4a; font-size:14px; }
+.advisory{ width:356px; padding-left:23px; float:left; padding-right:23px;}
+.info{ padding-top:10px;}
+.info p{ font-size:14px; line-height:32px; border-bottom:1px dashed  #ccc;}
+.time{float:right; }
+.month{ float:left;}
+.tu{ padding-top:10px; float:left;}
+.explain{ float:left;  line-height: 24px;padding-left: 10px; padding-top: 10px; width:190px;}
+.weibo{ padding:10px;   border-bottom: 1px solid #ccc; overflow:hidden;}
+.title{   float: left;font-size: 12px; line-height: 25px;padding-left: 20px;padding-right: 20px;}
+.weibo_info{   line-height: 24px;padding-top: 10px;}
+.weibo_review{ border-bottom:1px solid #ccc; border-top:1px solid #ccc; line-height: 40px;margin-top: 10px;}
+.scroll{ overflow:hidden;}
+.weibo_review p{ color:#b08f4a;}
+.trivia{  border-bottom: 2px solid #a08b5d;}
+.hdhx{  margin: 0 auto;padding-left: 10px; padding-top: 10px;text-align: center;width: 512px;}
+.photo{ padding-top:20px;}
+.photo_left{ float:left; padding-top:45px;}
+.photo_center{ float:left;    padding-left: 30px;padding-right: 30px;}
+.photo_right{float:right; padding-top:45px;}
+.links p{   font-size: 14px; padding-left: 10px; padding-top: 10px; line-height:30px;}
+.bottom{background:url(../images/bottom.png) repeat-x; width:100%; height:136px;}
+.bottom_center{ width:512px; margin:0 auto; padding-top:10px; text-align: center;}
+.bottom_center p{ color:#fff; line-height:30px;  font-size: 14px;}
+
+/*在线预约*/
+.reserve{ width:696px; margin:0 auto;}
+.fill{ width:480px; margin:0 auto;   padding-top: 20px;}
+.iput{ width:360px; height:28px; border:1px solid #b6a683;}
+.but{ width:136px; height:47px; background:#b08f4a; border:0; font-size:24px; color:#FFF;}
+.map{ width:100%; background-color:#f6eaff;}
+.map_cen{ width:1024px; margin:0 auto; padding:10px;    overflow: hidden;}
+.map_left{ float:left;}
+.map_right{ float: left;   padding-left: 30px;}
+.map_right p{ font-size:18px;  line-height: 30px;}
+.map_contact{ font-size:36px; color:#b09d60; line-height: 60px;}
+.weixin{bottom: 130px;position: fixed;}
+/*文章页*/
+.articles{float: left; line-height: 30px; width: 500px; font-size:14px;}
+.articles_tu{ float: right;width: 510px;}

@@ -1,0 +1,1 @@
+<p><img src="/templets/default/images/tubiao.png" /> &nbsp;[field:title/]<span class="time">[field:pubdate function=MyDate('Y/m/d H:i:s',@me)/]</span></p>
